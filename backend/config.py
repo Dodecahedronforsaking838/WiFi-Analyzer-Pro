@@ -14,7 +14,10 @@ class Config:
         "DATABASE_URL", f"sqlite:///{BASE_DIR / 'instance' / 'netpulse.db'}"
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:5173")
+    CORS_ORIGINS = os.getenv(
+        "CORS_ORIGINS",
+        "http://localhost:5173,http://127.0.0.1:5173"
+    )
 
 
 class DevelopmentConfig(Config):
@@ -27,6 +30,10 @@ class ProductionConfig(Config):
     """Production configuration."""
 
     DEBUG = False
+    CORS_ORIGINS = os.getenv(
+        "CORS_ORIGINS",
+        "https://wifi-analyzer-pro.vercel.app,https://netpulse-pro.vercel.app"
+    )
 
 
 class TestingConfig(Config):

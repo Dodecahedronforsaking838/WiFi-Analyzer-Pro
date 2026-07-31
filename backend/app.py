@@ -29,7 +29,13 @@ def create_app(config_name=None):
 
     # Initialize extensions with app
     db.init_app(app)
-    CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+    # CORS: allow Vercel frontend + localhost dev
+    allowed_origins = [
+        origin.strip()
+        for origin in app.config.get("CORS_ORIGINS", "http://localhost:5173").split(",")
+    ]
+    CORS(app, resources={r"/api/*": {"origins": allowed_origins, "supports_credentials": True}})
 
     # Security headers
     @app.after_request
