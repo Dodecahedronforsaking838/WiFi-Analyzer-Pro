@@ -544,6 +544,15 @@ python app.py
 ```
 
 ---
+## 🌐 Live Demo
+
+**Frontend:** https://wi-fi-analyzer-pro.vercel.app
+
+**Backend API:** https://wifi-analyzer-pro.onrender.com
+
+**Health Check:** https://wifi-analyzer-pro.onrender.com/api/health
+
+---
 
 # 👨‍💻 Author
 
