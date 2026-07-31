@@ -1,66 +1,203 @@
-# NetPulse Pro
+# 📶 NetPulse Pro
 
-**Enterprise Network Diagnostics & Wi-Fi Analysis Platform**
+<div align="center">
 
-A production-quality web application for analyzing Wi-Fi networks, performing network diagnostics, running speed tests, and visualizing network health.
+<img src="Screenshots/Dashboard.png" width="100%"/>
 
-## Tech Stack
+### Enterprise WiFi Network Analyzer & Diagnostics Platform
 
-### Frontend
-- React 19
+Monitor • Analyze • Diagnose • Optimize
+
+![React](https://img.shields.io/badge/React-19-blue)
+![Flask](https://img.shields.io/badge/Flask-3.x-black)
+![Python](https://img.shields.io/badge/Python-3.12-yellow)
+![Vite](https://img.shields.io/badge/Vite-5-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+</div>
+
+---
+
+# 🚀 Overview
+
+NetPulse Pro is an enterprise-grade WiFi monitoring and diagnostics platform built for network engineers, IT administrators and enterprise environments.
+
+It provides real-time WiFi analysis, network diagnostics, signal monitoring, speed testing, analytics and reporting through a modern dashboard.
+
+---
+
+# ✨ Features
+
+## 📊 Dashboard
+
+- Real-time Network Status
+- Connected Devices
+- Signal Health
+- Bandwidth Usage
+- Performance Widgets
+
+---
+
+## 📡 WiFi Scanner
+
+- Scan Nearby Networks
+- Channel Analysis
+- Security Type
+- Frequency Band
+- RSSI
+- BSSID
+
+---
+
+## 📈 Signal Analyzer
+
+- Signal Strength
+- Quality Meter
+- Historical Trend
+- Live Updates
+
+---
+
+## 🌐 Network Diagnostics
+
+- Ping
+- DNS Lookup
+- Gateway Detection
+- Latency
+- Packet Loss
+
+---
+
+## ⚡ Speed Test
+
+- Download Speed
+- Upload Speed
+- Ping
+- Jitter
+
+---
+
+## 📊 Analytics
+
+- Historical Reports
+- Signal Trends
+- Speed History
+- Performance Charts
+
+---
+
+## 📄 Reports
+
+- Export PDF
+- Export CSV
+- Printable Reports
+
+---
+
+## ⚙ Settings
+
+- Application Settings
+- Theme
+- Refresh Interval
+
+---
+
+# 📷 Screenshots
+
+## Dashboard
+
+<img src="Screenshots/Dashboard.png"/>
+
+---
+
+## Analytics
+
+<img src="Screenshots/Analytics.png"/>
+
+---
+
+## Signal Analyzer
+
+<img src="Screenshots/Signal-analyzer.png"/>
+
+---
+
+## Network Diagnostics
+
+<img src="Screenshots/Network-diagnostics.png"/>
+
+---
+
+## Reports
+
+<img src="Screenshots/-Reports.png"/>
+
+---
+
+# 🛠 Tech Stack
+
+Frontend
+
+- React
 - Vite
 - Tailwind CSS
-- React Router DOM
 - Axios
 - Recharts
-- Lucide React
 
-### Backend
-- Python 3.12+
+Backend
+
 - Flask
-- Flask-CORS
-- Flask-SQLAlchemy
+- Python
 - SQLite
 
-## Getting Started
+---
 
-### Prerequisites
-- Node.js 18+
-- Python 3.12+
-- npm or yarn
+# 📂 Folder Structure
 
-### Frontend Setup
+frontend/
+
+backend/
+
+docs/
+
+Screenshots/
+
+README.md
+
+---
+
+# 🚀 Installation
+
+```bash
+git clone https://github.com/sivaprakashtech/WiFi-Analyzer-Pro.git
+
+cd WiFi-Analyzer-Pro
+```
+
+Frontend
 
 ```bash
 cd frontend
+
 npm install
+
 npm run dev
 ```
 
-### Backend Setup
+Backend
 
 ```bash
 cd backend
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
+
 pip install -r requirements.txt
+
 python app.py
 ```
 
-## Project Structure
+---
 
-```
-netpulse-pro/
-├── frontend/          # React + Vite application
-├── backend/           # Flask API server
-├── docs/              # Project documentation
-├── .gitignore
-└── README.md
-```
+# 👨‍💻 Author
 
-## License
+Siva Prakash
 
-MIT
+Amazon Network Validation Engineer
