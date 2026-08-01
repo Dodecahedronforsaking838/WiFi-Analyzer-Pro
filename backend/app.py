@@ -35,7 +35,13 @@ def create_app(config_name=None):
         origin.strip()
         for origin in app.config.get("CORS_ORIGINS", "http://localhost:5173").split(",")
     ]
-    CORS(app, resources={r"/api/*": {"origins": allowed_origins, "supports_credentials": True}})
+    CORS(
+        app,
+        resources={r"/api/*": {"origins": allowed_origins}},
+        supports_credentials=True,
+        allow_headers=["Content-Type", "Authorization"],
+        methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    )
 
     # Security headers
     @app.after_request

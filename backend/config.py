@@ -32,7 +32,7 @@ class ProductionConfig(Config):
     DEBUG = False
     CORS_ORIGINS = os.getenv(
         "CORS_ORIGINS",
-        "https://wifi-analyzer-pro.vercel.app,https://netpulse-pro.vercel.app"
+        "https://wi-fi-analyzer-pro.vercel.app,https://wifi-analyzer-pro.vercel.app,https://netpulse-pro.vercel.app"
     )
 
 
